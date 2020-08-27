@@ -30,8 +30,7 @@ class App extends Component {
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Charts data={data} country={country} /> 
                 <div className={Style.footer}>
-                   <p>Made With ❤ In India |</p>
-                   <p>By Shivdhan Chauhan</p>
+                   <p>Made With<span> ❤ </span>In India | By Shivdhan Chauhan</p>
                 </div>
             </div>
         )

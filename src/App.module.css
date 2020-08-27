@@ -19,17 +19,12 @@ body{
         width: 70%;
     }
 }
-.footer{
-   color:rgb(170, 170, 170);
-   display: flex;
-   justify-content: space-between;   
-   align-items: center;
-   text-align:center;
-   line-height: 1;
-   margin-top: 5px;
+span{
+    color:red;
 }
-.footer p{
-    margin-left: 5px;
-    font-family:monospace;
-    
+p{
+    color:rgb(177, 177, 177);
+    font-family: monospace;
+    text-align: center;
+    font-size: 2vh;
 }
