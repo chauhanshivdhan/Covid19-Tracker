@@ -1,0 +1,35 @@
+body{
+    background-color: #ffffff;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    width:350px;
+}
+@media (max-width:770px){
+    .container{
+        margin:0 10px;
+
+    }
+    .logo{
+        width: 70%;
+    }
+}
+.footer{
+   color:rgb(170, 170, 170);
+   display: flex;
+   justify-content: space-between;   
+   align-items: center;
+   text-align:center;
+   line-height: 1;
+   margin-top: 5px;
+}
+.footer p{
+    margin-left: 5px;
+    font-family:monospace;
+    
+}
